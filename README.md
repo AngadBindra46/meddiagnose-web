@@ -29,6 +29,27 @@ npm run build
 npm run preview
 ```
 
+## Deploy to Vercel
+
+```bash
+# 1. Install Vercel CLI
+npm i -g vercel
+
+# 2. Deploy (first time — links to your Vercel project)
+vercel
+
+# 3. Deploy to production
+vercel --prod
+```
+
+**Or connect via GitHub (recommended):**
+1. Go to [vercel.com/new](https://vercel.com/new)
+2. Import `AngadBindra46/meddiagnose-web`
+3. Set environment variable: `VITE_API_BASE_URL` = your Cloud Run API URL
+4. Click Deploy — Vercel auto-detects Vite and builds on every push
+
+**API proxy:** `vercel.json` is pre-configured to proxy `/api/*` requests to the Cloud Run backend. Update the `destination` URL in `vercel.json` with your actual Cloud Run service URL after deploying the API.
+
 ## Pages
 
 | Page | File | Description |
