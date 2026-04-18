@@ -1,0 +1,10 @@
+import './en';
+import './hi';
+import './bn';
+import './te';
+import './mr';
+import './ta';
+import './gu';
+import './kn';
+import './ml';
+import './pa';

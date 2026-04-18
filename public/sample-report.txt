@@ -1,0 +1,12 @@
+Complete Blood Count (CBC) - Sample Report
+Patient: Demo Patient | Date: 2025-03-15
+Lab: City Diagnostics
+
+Hemoglobin (Hb): 12.5 g/dL (Ref: 12-16)
+RBC: 4.8 M/uL (Ref: 4.5-5.5)
+WBC: 7500 /uL (Ref: 4000-11000)
+Platelets: 250000 /uL (Ref: 150000-400000)
+FBS (Fasting Blood Sugar): 98 mg/dL (Ref: 70-100)
+ESR: 18 mm/hr (Ref: 0-20)
+
+Impression: Mild leukocytosis. FBS at upper limit of normal.
